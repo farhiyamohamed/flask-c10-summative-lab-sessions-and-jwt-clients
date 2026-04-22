@@ -1,0 +1,17 @@
+@token = 
+  "access_token": "eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJmcmVzaCI6ZmFsc2UsImlhdCI6MTc3Njg0ODIwMCwianRpIjoiNjZlMjE3NzMtYTY0OS00MjFhLWJlMDctODQwNWJjYjM0OTJiIiwidHlwZSI6ImFjY2VzcyIsInN1YiI6MSwibmJmIjoxNzc2ODQ4MjAwLCJjc3JmIjoiY2E5MzFhNTYtY2Q4OS00MTAwLTlkZjYtYjU2ZGVkZDgwNWIyIiwiZXhwIjoxNzc2ODQ5MTAwfQ.wpz1PhdyDnCEv0Dyys90rTg66IRB16V7Cp5C6vYSHlI"
+}
+POST http://127.0.0.1:5000/auth/register
+Content-Type: application/json
+
+{
+  "username": "test",
+  "password": "1234"
+}
+ POST http://127.0.0.1:5000/auth/login
+Content-Type: application/json
+
+{
+  "username": "test",
+  "password": "1234"
+}
